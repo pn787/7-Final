@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+	
+}
+video {
+	position: fixed;
+	top: 0; 
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+
+.navbar-header img{
+	height: 88px;
+	width: auto;
+	margin-right: 50em;
+}
+
+p {
+	display: inline-block;
+	line-height: 1.4;
+	text-align: left;
+	color: #3c3c3c;
+	font-family: "muli", sans-serif;
+}
+
+h1{
+	color: white;
+	font-family: "Muli", sans-serif;
+	;
+}
+
+h2{
+	padding: 70px;
+	font-size: 30px;
+}
+h4{
+	
+	padding: 70px;
+	font-size: 30px;
+}
+h6, h7, h8 {
+	color: black;
+}
+
+html {  
+	   text-align: center; 
+	   height: 100%; 
+	}
+
+.fullsize-video-bg:before { 
+			content: ""; 
+			background: rgba(5,73,92,.25); 
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			width: 100%; 
+			height: 88%; 
+			z-index: 0; 
+			}
+
+#about, .home-section-text-center{
+	background: rgb(238, 238, 238);
+	height: 500px;
+	text-align: center;
+	display: block;
+	color: #3c3c3c;
+	font-size: 30px;
+	padding: 25px;
+}
+
+#services, .Srvtext{
+	background: rgb(238, 238, 238);
+	height: 500px;
+	color: grey;
+
+}
+#tweet-btn{
+  position: bottom;
+}
+ /*didnt load 
+ .container3{ background-image: url("bg7.png");
+}*/
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
